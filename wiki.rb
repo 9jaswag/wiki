@@ -13,6 +13,10 @@ def save_content(title, content)
   end
 end
 
+def delete_content(title)
+  File.delete("pages/#{title}.txt")
+end
+
 get('/') do
   erb :welcome
 end
@@ -45,4 +49,10 @@ put '/:title' do
   content = params[:content]
   save_content(title, content)
   redirect URI.escape("/#{title}")
+end
+
+delete '/:title' do
+  title = params[:title]
+  delete_content title
+  redirect '/'
 end
