@@ -1,0 +1,11 @@
+Full-Stack software developer proficient in JavaScript, Ruby and other web technologies. I have experience working with diverse technology teams; building incredible software products.
+I also have additional experience as a technical writer.
+
+Tech Stack:
+- JavaScript (React, Angular, Node, Express, Ember, Meteor)
+- Ruby
+- Flutter/Dart
+- MySQL
+- PostgreSQL
+
+To get in touch, please send an email to chuks.opia[at]andela.com
